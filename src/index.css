@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Six+Caps&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 21px;
+  font-weight: 700;
+  font-size: 14px;
+
+  color-scheme: light dark;
+  color: rgb(153, 153, 153);
+  background-color: #111111;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+button {
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.background-image-main {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  opacity: 0.3;
+}
+span {
+  color: #ff534a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+h2,
+h4 {
+  font-family: "Six Caps", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.alice-carousel__stage-item {
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+
+.alice-carousel__dots {
+  text-align: left !important;
+}
+.alice-carousel__dots-item:not(.__custom) {
+  background-color: #dddddd !important;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: #ff534a !important;
+}
+
+.MuiPaper-root {
+  background-color: #1e1e1e !important;
+  border: 1px solid #333333 !important;
+  border-radius: 0px !important;
+  margin: 0px !important;
+  color: rgb(153, 153, 153);
+}
+.MuiTypography-root.MuiTypography-body1.css-rizt0-MuiTypography-root {
+  color: rgb(153, 153, 153);
+}
+.BoxButton {
+  display: none;
+}
+/* Media Queries */
+
+@media (max-width: 1024px) {
+  .Sidebar {
+    display: none;
+  }
+  .background-image-main {
+    background-position: left left !important;
+  }
+
+  .alice-carousel__stage-item {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .BoxButton {
+    margin-top: -75px;
+    display: block;
+  }
+}
