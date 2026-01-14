@@ -16,7 +16,7 @@ function Sidebar() {
       <hr />
       <p className="my-5">GET IN CONTACT</p>
       <Button
-        title="Contact Me"
+        title="Contact Us"
         onClick={() => alert("Take them to contact page!!")}
       />
 

@@ -8,7 +8,7 @@ function MainCTA() {
       whileTap={{ scale: 0.95 }}
       className="hidden sm:block p-8 absolute bottom-0 right-0 w-md bg-red-600 z-10 text-white font-semibold hover:bg-amber-700 transition-colors"
     >
-      Contact Me
+      Contact Us
     </motion.button>
   );
 }
