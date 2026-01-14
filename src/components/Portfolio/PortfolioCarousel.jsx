@@ -29,7 +29,7 @@ export default function PortfolioCarousel() {
           objectFit: "cover",
         }}
       />
-      <div className="flex flex-row justify-between mt-1">
+      <div className="flex flex-row justify-between mt-1 p-4 md:pl-0">
         <p className="font-normal">{item.title}</p>
         <p className="underline cursor-pointer font-bold">{item.link}</p>
       </div>
